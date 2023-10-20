@@ -12,7 +12,7 @@ class RequestSender:
         "Connection": "keep-alive",
     }
 
-    BASE_URL = "https://student.otm.uz/rest/v1/data/student-list?limit=200"
+    BASE_URL = "https://student.otm.uz/rest/v1/data/student-list?limit=50"
     PAGES_COUNT = 90 # Bu raqamni esa aslida apiga bir marta bog'lanish orqali sonini aniqlash kerak. (Erinchoqlik qilmaysiz)
 
     def __init__(self):
